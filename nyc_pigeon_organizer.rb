@@ -5,8 +5,9 @@ def nyc_pigeon_organizer(data)
 
 # Get array of unique names  
 # attributes = color, gender, lives
-# details = colors, 
-  pigeon_names = data.collect |attributes, details|
+# details = colors, genders, locations
+  pigeon_names = data.collect do |attributes, details|
+  details.values
 
 # Create hash with each name as key
 # {"Theo"=> {}, "Peter" => {},...}  
