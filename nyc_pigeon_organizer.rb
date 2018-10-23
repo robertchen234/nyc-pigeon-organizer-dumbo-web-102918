@@ -1,5 +1,7 @@
 require 'pry'
-
+def nyc_pigeon_organizer(data)
+  new_hash = {}
+  
 	  # Get array of unique names
   pigeon_names = data.collect do |attributes, details|
     details.values
