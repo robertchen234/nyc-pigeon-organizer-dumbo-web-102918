@@ -23,4 +23,4 @@ def nyc_pigeon_organizer(data)
   new
 end
 
-nyc_pigeon_organizer(data)
+nyc_pigeon_organizer("pigeons")
