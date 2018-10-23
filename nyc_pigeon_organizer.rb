@@ -8,12 +8,12 @@ def nyc_pigeon_organizer(data)
             new[:name] = {
               :color => detail if attribute.include?("color")
               :gender => detail if attribute.include?("gender")
-              :lives => detail if attribute.include?(lives)
+              :lives => detail if attribute.include?("lives")
             }
           end
         end 
       end
     end 
   end 
-    
+  new
 end
