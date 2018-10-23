@@ -11,7 +11,9 @@ def nyc_pigeon_organizer(data)
   
 # Create hash with each name as key
 # {"Theo"=> {}, "Peter" => {},...}
-  pigeon_names.each { |name| new_hash[name] = {} }
+  pigeon_names.each do |name| 
+    new_hash[name] = {} 
+  end
   
 # Create keys(categories for each pigeon) with value of empty array
   data.each do |attributes, details|
