@@ -4,7 +4,10 @@ def nyc_pigeon_organizer(data)
   new_hash = {}
   
 # Get array of unique names
-  pigeon_names = data.collect { |attributes, details| details.values }.flatten.uniq
+  pigeon_names = data.collect do |attributes, details|
+    details.values
+    end
+    .flatten.uniq
   
 # Create hash with each name as key
 # {"Theo"=> {}, "Peter" => {},...}
