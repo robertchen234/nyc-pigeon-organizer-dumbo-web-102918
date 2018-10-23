@@ -3,6 +3,33 @@ def nyc_pigeon_organizer(data)
   
   new_hash = {}
   
+  pigeon_names = data.collect do |attributes, details|
+    details.values 
+  end 
+  .flatten.uniq 
+  
+  pigeon_names.each do |name|
+    new_hash[name] = []
+  end 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 # Get array of unique names
   pigeon_names = data.collect do |attributes, details|
     details.values
