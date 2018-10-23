@@ -1,3 +1,5 @@
+require pry
+
 def nyc_pigeon_organizer(data)
   new = {}
   data.each do |infos| #blocks
