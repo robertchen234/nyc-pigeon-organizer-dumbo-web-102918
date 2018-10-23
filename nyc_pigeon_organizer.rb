@@ -14,6 +14,7 @@ def nyc_pigeon_organizer(data)
 # Create hash with each name as key
 # {"Theo"=> {}, "Peter" => {},...}  
 
+
 # Create keys(categories for each pigeon) with value of empty array  
 
 # Assign info to each key  
