@@ -22,3 +22,5 @@ def nyc_pigeon_organizer(data)
   end 
   new
 end
+
+nyc_pigeon_organizer(data)
